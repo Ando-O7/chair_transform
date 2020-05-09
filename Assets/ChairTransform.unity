@@ -580,7 +580,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 0479ec09c384c41e3926ed3436040348, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 0479ec09c384c41e3926ed3436040348, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &821888553 stripped
@@ -608,7 +609,7 @@ MonoBehaviour:
     RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
-  Axis: {x: 0, y: -1, z: 0}
+  Axis: {x: 0, y: 0, z: 1}
   Space: 1
 --- !u!114 &821888556
 MonoBehaviour:
